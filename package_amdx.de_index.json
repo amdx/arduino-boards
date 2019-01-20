@@ -18,8 +18,8 @@
           },
           "version": "1.0.0",
           "archiveFileName": "ArduinoCore-AIO-1.0.0.tar.gz",
-          "checksum": "SHA-256:8797a80b2a15e255054281fed6dfabb717995609e7298dbc7cd2757145a91ec2",
-          "size": "31626",
+          "checksum": "SHA-256:7450204f9b03f42f8048542f623c1b76caa1b3c5311f97a0b11aab1b8eb50590",
+          "size": "39942",
           "url": "https://github.com/amdxyz/ArduinoCore-AIO/archive/1.0.0.tar.gz",
           "toolsDependencies": [
             {
