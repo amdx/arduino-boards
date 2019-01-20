@@ -1,0 +1,71 @@
+{
+  "packages": [
+    {
+      "name": "amdx",
+      "maintainer": "Archimedes Exhibitions GmbH",
+      "websiteURL": "https://www.archimedes-exhibitions.de/",
+      "email": "circuit@amdx.de",
+      "platforms": [
+        {
+          "boards": [
+            {"name": "AIO XL"}
+          ],
+          "architecture": "avr",
+          "name": "AMDX AIO",
+          "category": "Contributed",
+          "help": {
+            "online": "https://www.archimedes-exhibitions.de"
+          },
+          "version": "1.0.0",
+          "archiveFileName": "ArduinoCore-AIO-1.0.0.tar.gz",
+          "checksum": "SHA-256:8797a80b2a15e255054281fed6dfabb717995609e7298dbc7cd2757145a91ec2",
+          "size": "31626",
+          "url": "https://github.com/amdxyz/ArduinoCore-AIO/archive/1.0.0.tar.gz",
+          "toolsDependencies": [
+            {
+              "packager": "amdx",
+              "name": "avrdude",
+              "version": "6.3.0-amdx1"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "name": "avrdude",
+          "version": "6.3.0-amdx1",
+          "systems": [
+            {
+              "size": "256917",
+              "checksum": "SHA-256:47d03991522722ce92120c60c4118685b7861909d895f34575001137961e4a63",
+              "host": "i386-apple-darwin11",
+              "archiveFileName": "avrdude-6.3.0-arduino14-i386-apple-darwin12.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/avrdude-6.3.0-arduino14-i386-apple-darwin11.tar.bz2"
+            },
+            {
+              "size": "253366",
+              "checksum": "SHA-256:7986e8f3059353dc08f9234f7dbc98d9b2fa2242f046f02a8243a060f7358bfc",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "avrdude-6.3.0-arduino14-x86_64-pc-linux-gnu.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/avrdude-6.3.0-arduino14-x86_64-pc-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "244293",
+              "checksum": "SHA-256:4f100e3843c635064997df91d2a079ab15cd30d1d7fa227280abe6a7c3bc74ca",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "avrdude-6.3.0-arduino14-i686-pc-linux-gnu.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/avrdude-6.3.0-arduino14-i686-pc-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "648316",
+              "checksum": "SHA-256:ed3f1fe32f1b70fe503ea8a02f1518414acfbbd6c9af0c253caa9b8545f04d22",
+              "host": "i686-mingw32",
+              "archiveFileName": "avrdude-6.3.0-amdx1-i686-w64-mingw32.zip",
+              "url": "https://github.com/amdxyz/ArduinoCore-AIO/releases/download/build-tools/avrdude-6.3.0-amdx1-i686-w64-mingw32.zip"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
