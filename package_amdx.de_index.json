@@ -20,7 +20,30 @@
           "archiveFileName": "ArduinoCore-AIO-1.0.0.tar.gz",
           "checksum": "SHA-256:7450204f9b03f42f8048542f623c1b76caa1b3c5311f97a0b11aab1b8eb50590",
           "size": "39942",
-          "url": "https://github.com/amdxyz/ArduinoCore-AIO/archive/1.0.0.tar.gz",
+          "url": "https://github.com/amdx/ArduinoCore-AIO/archive/1.0.0.tar.gz",
+          "toolsDependencies": [
+            {
+              "packager": "amdx",
+              "name": "avrdude",
+              "version": "6.3.0-amdx1"
+            }
+          ]
+        },
+        {
+          "boards": [
+            {"name": "AIO XL"}
+          ],
+          "architecture": "avr",
+          "name": "AMDX AIO",
+          "category": "Contributed",
+          "help": {
+            "online": "https://www.archimedes-exhibitions.de"
+          },
+          "version": "1.1.0",
+          "archiveFileName": "ArduinoCore-AIO-1.1.0.tar.gz",
+          "checksum": "SHA-256:1362fad7f3c880c2d9beb592e93b6b5764f684a56ded91e5e971b76946e9a574",
+          "size": "47228",
+          "url": "https://github.com/amdx/ArduinoCore-AIO/archive/1.1.0.tar.gz",
           "toolsDependencies": [
             {
               "packager": "amdx",
@@ -61,7 +84,7 @@
               "checksum": "SHA-256:ed3f1fe32f1b70fe503ea8a02f1518414acfbbd6c9af0c253caa9b8545f04d22",
               "host": "i686-mingw32",
               "archiveFileName": "avrdude-6.3.0-amdx1-i686-w64-mingw32.zip",
-              "url": "https://github.com/amdxyz/ArduinoCore-AIO/releases/download/build-tools/avrdude-6.3.0-amdx1-i686-w64-mingw32.zip"
+              "url": "https://github.com/amdx/ArduinoCore-AIO/releases/download/build-tools/avrdude-6.3.0-amdx1-i686-w64-mingw32.zip"
             }
           ]
         }
